@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D7A089632C8884C100191812 /* FindMyIP in Frameworks */ = {isa = PBXBuildFile; productRef = D7A089622C8884C100191812 /* FindMyIP */; };
 		D7C913372C88630B00517BB8 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C913362C88630B00517BB8 /* MainAppApp.swift */; };
 		D7C9133B2C88630D00517BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C9133A2C88630D00517BB8 /* Assets.xcassets */; };
 		D7C9133E2C88630D00517BB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C9133D2C88630D00517BB8 /* Preview Assets.xcassets */; };
 		D7C913482C88630D00517BB8 /* MainAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C913472C88630D00517BB8 /* MainAppTests.swift */; };
 		D7C913522C88630D00517BB8 /* MainAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C913512C88630D00517BB8 /* MainAppUITests.swift */; };
 		D7C913542C88630D00517BB8 /* MainAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C913532C88630D00517BB8 /* MainAppUITestsLaunchTests.swift */; };
-		D7C913632C88634C00517BB8 /* FindMyIP in Frameworks */ = {isa = PBXBuildFile; productRef = D7C913622C88634C00517BB8 /* FindMyIP */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D7A089612C88849200191812 /* FindMyIP */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindMyIP; sourceTree = SOURCE_ROOT; };
 		D7C913332C88630B00517BB8 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C913362C88630B00517BB8 /* MainAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppApp.swift; sourceTree = "<group>"; };
 		D7C9133A2C88630D00517BB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		D7C9134D2C88630D00517BB8 /* MainAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MainAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C913512C88630D00517BB8 /* MainAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITests.swift; sourceTree = "<group>"; };
 		D7C913532C88630D00517BB8 /* MainAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		D7C913602C88632500517BB8 /* FindMyIP */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = FindMyIP; path = ../../../Documents/FindMyIP; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D7C913632C88634C00517BB8 /* FindMyIP in Frameworks */,
+				D7A089632C8884C100191812 /* FindMyIP in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +96,7 @@
 		D7C913352C88630B00517BB8 /* MainApp */ = {
 			isa = PBXGroup;
 			children = (
-				D7C913602C88632500517BB8 /* FindMyIP */,
+				D7A089612C88849200191812 /* FindMyIP */,
 				D7C913362C88630B00517BB8 /* MainAppApp.swift */,
 				D7C9133A2C88630D00517BB8 /* Assets.xcassets */,
 				D7C9133C2C88630D00517BB8 /* Preview Content */,
@@ -153,7 +153,7 @@
 			);
 			name = MainApp;
 			packageProductDependencies = (
-				D7C913622C88634C00517BB8 /* FindMyIP */,
+				D7A089622C8884C100191812 /* FindMyIP */,
 			);
 			productName = MainApp;
 			productReference = D7C913332C88630B00517BB8 /* MainApp.app */;
@@ -609,7 +609,7 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		D7C913622C88634C00517BB8 /* FindMyIP */ = {
+		D7A089622C8884C100191812 /* FindMyIP */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = FindMyIP;
 		};
