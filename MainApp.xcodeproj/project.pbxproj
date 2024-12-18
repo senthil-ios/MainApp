@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C03806642D12AE6300C5177B /* apple-app-site-association in Resources */ = {isa = PBXBuildFile; fileRef = C03806632D12AE6300C5177B /* apple-app-site-association */; };
-		C03806672D12B57400C5177B /* path in Resources */ = {isa = PBXBuildFile; fileRef = C03806662D12B57400C5177B /* path */; };
+		C028F0F42D12E76300FE5E51 /* apple-app-site-association in Resources */ = {isa = PBXBuildFile; fileRef = C028F0F22D12E76300FE5E51 /* apple-app-site-association */; };
+		C028F0F52D12E76300FE5E51 /* path in Resources */ = {isa = PBXBuildFile; fileRef = C028F0F32D12E76300FE5E51 /* path */; };
 		D7A089632C8884C100191812 /* FindMyIP in Frameworks */ = {isa = PBXBuildFile; productRef = D7A089622C8884C100191812 /* FindMyIP */; };
 		D7C913372C88630B00517BB8 /* MainAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7C913362C88630B00517BB8 /* MainAppApp.swift */; };
 		D7C9133B2C88630D00517BB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7C9133A2C88630D00517BB8 /* Assets.xcassets */; };
@@ -36,8 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C03806632D12AE6300C5177B /* apple-app-site-association */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
-		C03806662D12B57400C5177B /* path */ = {isa = PBXFileReference; lastKnownFileType = text; path = path; sourceTree = "<group>"; };
+		C028F0F22D12E76300FE5E51 /* apple-app-site-association */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "apple-app-site-association"; sourceTree = "<group>"; };
+		C028F0F32D12E76300FE5E51 /* path */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = path; sourceTree = "<group>"; };
 		D7A089612C88849200191812 /* FindMyIP */ = {isa = PBXFileReference; lastKnownFileType = text; path = FindMyIP; sourceTree = SOURCE_ROOT; };
 		D7C913332C88630B00517BB8 /* MainApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MainApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C913362C88630B00517BB8 /* MainAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppApp.swift; sourceTree = "<group>"; };
@@ -79,6 +79,8 @@
 		D7C9132A2C88630B00517BB8 = {
 			isa = PBXGroup;
 			children = (
+				C028F0F22D12E76300FE5E51 /* apple-app-site-association */,
+				C028F0F32D12E76300FE5E51 /* path */,
 				D7C913352C88630B00517BB8 /* MainApp */,
 				D7C913462C88630D00517BB8 /* MainAppTests */,
 				D7C913502C88630D00517BB8 /* MainAppUITests */,
@@ -102,8 +104,6 @@
 			children = (
 				D7A089612C88849200191812 /* FindMyIP */,
 				D7C913362C88630B00517BB8 /* MainAppApp.swift */,
-				C03806662D12B57400C5177B /* path */,
-				C03806632D12AE6300C5177B /* apple-app-site-association */,
 				D7C9133A2C88630D00517BB8 /* Assets.xcassets */,
 				D7C9133C2C88630D00517BB8 /* Preview Content */,
 			);
@@ -253,8 +253,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7C9133E2C88630D00517BB8 /* Preview Assets.xcassets in Resources */,
-				C03806672D12B57400C5177B /* path in Resources */,
-				C03806642D12AE6300C5177B /* apple-app-site-association in Resources */,
+				C028F0F52D12E76300FE5E51 /* path in Resources */,
+				C028F0F42D12E76300FE5E51 /* apple-app-site-association in Resources */,
 				D7C9133B2C88630D00517BB8 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
